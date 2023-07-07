@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
 
 
-#driver function:
+#driver function
 def get_driver():
     chrome_options = Options()
     #chrome_options.add_argument('--headless')
